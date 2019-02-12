@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76991103DCA357D038563757 /* Pods_Assignment_5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C7D70CE913172F05068A1D /* Pods_Assignment_5.framework */; };
+		A16F975221A4DACB0020958F /* ClassInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F975121A4DACB0020958F /* ClassInformationTableViewCell.swift */; };
 		A1CB925B219E479C00BB9329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB925A219E479C00BB9329 /* AppDelegate.swift */; };
 		A1CB925D219E479C00BB9329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB925C219E479C00BB9329 /* ViewController.swift */; };
 		A1CB9260219E479C00BB9329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CB925E219E479C00BB9329 /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		A1CB9265219E479E00BB9329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CB9263219E479E00BB9329 /* LaunchScreen.storyboard */; };
 		A1CB9270219E479E00BB9329 /* Assignment_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB926F219E479E00BB9329 /* Assignment_5Tests.swift */; };
 		A1CB927B219E479E00BB9329 /* Assignment_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB927A219E479E00BB9329 /* Assignment_5UITests.swift */; };
+		A1CB9289219E484300BB9329 /* MajorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB9288219E484300BB9329 /* MajorListViewController.swift */; };
+		A1CB928B219E4CDF00BB9329 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB928A219E4CDF00BB9329 /* CourseViewController.swift */; };
+		A1DD24CC219E5D5400863AC0 /* CourseInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD24CB219E5D5400863AC0 /* CourseInformationViewController.swift */; };
+		A1DD24CE219F911300863AC0 /* RegisterStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD24CD219F911300863AC0 /* RegisterStudentViewController.swift */; };
+		A1DD24D021A0C79000863AC0 /* YourClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD24CF21A0C79000863AC0 /* YourClassesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21C7D70CE913172F05068A1D /* Pods_Assignment_5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16F975121A4DACB0020958F /* ClassInformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInformationTableViewCell.swift; sourceTree = "<group>"; };
 		A1CB9257219E479C00BB9329 /* Assignment 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CB925A219E479C00BB9329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1CB925C219E479C00BB9329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		A1CB9276219E479E00BB9329 /* Assignment 5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CB927A219E479E00BB9329 /* Assignment_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_5UITests.swift; sourceTree = "<group>"; };
 		A1CB927C219E479E00BB9329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1CB9288219E484300BB9329 /* MajorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorListViewController.swift; sourceTree = "<group>"; };
+		A1CB928A219E4CDF00BB9329 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		A1DD24CB219E5D5400863AC0 /* CourseInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseInformationViewController.swift; sourceTree = "<group>"; };
+		A1DD24CD219F911300863AC0 /* RegisterStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterStudentViewController.swift; sourceTree = "<group>"; };
+		A1DD24CF21A0C79000863AC0 /* YourClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourClassesViewController.swift; sourceTree = "<group>"; };
+		E03937F6802EAE8806B8E90D /* Pods-Assignment 5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment 5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment 5/Pods-Assignment 5.debug.xcconfig"; sourceTree = "<group>"; };
+		FC424585F716F76E4E45B4B3 /* Pods-Assignment 5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment 5.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment 5/Pods-Assignment 5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76991103DCA357D038563757 /* Pods_Assignment_5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EC49D17603DC942D9F20090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21C7D70CE913172F05068A1D /* Pods_Assignment_5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E02EAB9BF940F35FE611345 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E03937F6802EAE8806B8E90D /* Pods-Assignment 5.debug.xcconfig */,
+				FC424585F716F76E4E45B4B3 /* Pods-Assignment 5.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1CB924E219E479C00BB9329 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				A1CB926E219E479E00BB9329 /* Assignment 5Tests */,
 				A1CB9279219E479E00BB9329 /* Assignment 5UITests */,
 				A1CB9258219E479C00BB9329 /* Products */,
+				9E02EAB9BF940F35FE611345 /* Pods */,
+				0EC49D17603DC942D9F20090 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +136,12 @@
 				A1CB925A219E479C00BB9329 /* AppDelegate.swift */,
 				A1CB925C219E479C00BB9329 /* ViewController.swift */,
 				A1CB925E219E479C00BB9329 /* Main.storyboard */,
+				A1DD24CF21A0C79000863AC0 /* YourClassesViewController.swift */,
+				A16F975121A4DACB0020958F /* ClassInformationTableViewCell.swift */,
+				A1CB928A219E4CDF00BB9329 /* CourseViewController.swift */,
+				A1DD24CB219E5D5400863AC0 /* CourseInformationViewController.swift */,
+				A1CB9288219E484300BB9329 /* MajorListViewController.swift */,
+				A1DD24CD219F911300863AC0 /* RegisterStudentViewController.swift */,
 				A1CB9261219E479E00BB9329 /* Assets.xcassets */,
 				A1CB9263219E479E00BB9329 /* LaunchScreen.storyboard */,
 				A1CB9266219E479E00BB9329 /* Info.plist */,
@@ -132,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1CB927F219E479E00BB9329 /* Build configuration list for PBXNativeTarget "Assignment 5" */;
 			buildPhases = (
+				F7A4BF8753557A0AA9DD1DB1 /* [CP] Check Pods Manifest.lock */,
 				A1CB9253219E479C00BB9329 /* Sources */,
 				A1CB9254219E479C00BB9329 /* Frameworks */,
 				A1CB9255219E479C00BB9329 /* Resources */,
+				60DDEE3FE354191062FF0E69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +295,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		60DDEE3FE354191062FF0E69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Assignment 5/Pods-Assignment 5-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assignment 5/Pods-Assignment 5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A4BF8753557A0AA9DD1DB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assignment 5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1CB9253219E479C00BB9329 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DD24CC219E5D5400863AC0 /* CourseInformationViewController.swift in Sources */,
+				A1DD24D021A0C79000863AC0 /* YourClassesViewController.swift in Sources */,
 				A1CB925D219E479C00BB9329 /* ViewController.swift in Sources */,
+				A1CB928B219E4CDF00BB9329 /* CourseViewController.swift in Sources */,
+				A1CB9289219E484300BB9329 /* MajorListViewController.swift in Sources */,
+				A16F975221A4DACB0020958F /* ClassInformationTableViewCell.swift in Sources */,
 				A1CB925B219E479C00BB9329 /* AppDelegate.swift in Sources */,
+				A1DD24CE219F911300863AC0 /* RegisterStudentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +527,7 @@
 		};
 		A1CB9280219E479E00BB9329 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03937F6802EAE8806B8E90D /* Pods-Assignment 5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +545,7 @@
 		};
 		A1CB9281219E479E00BB9329 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC424585F716F76E4E45B4B3 /* Pods-Assignment 5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
